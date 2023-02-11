@@ -1,0 +1,30 @@
+$bg-color:red;
+
+// mix in
+
+@mixin btn-size($p,$fs,$m,$bg) {
+    padding: $p;
+    font-size: $fs;
+    margin: $m;
+    background-color: $bg;
+}
+
+
+.header{
+    width: 100%;
+    height: 400px;
+    background-color: $bg-color;
+    &__container{
+        background-color:aqua;
+        margin-top: 20px;
+        .header__top{
+            background-color: green;
+            .header__btn{
+                background-color: black;
+                @include btn-size(20px, 16px, 12px)
+            }
+        }
+    }
+   
+}
+

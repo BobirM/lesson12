@@ -1,0 +1,5 @@
+.test{
+    &__btn{
+        @include btn-size(20px,40px,5px,gray)
+    }
+}

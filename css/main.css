@@ -1,0 +1,34 @@
+*, *::before,
+*::after {
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  height: 400px;
+  background-color: red;
+}
+.header__container {
+  background-color: aqua;
+  margin-top: 20px;
+}
+.header__container .header__top {
+  background-color: green;
+}
+.header__container .header__top .header__btn {
+  background-color: black;
+  padding: 20px;
+  font-size: 16px;
+  margin: 12px;
+  background-color: red;
+}
+
+.test__btn {
+  padding: 20px;
+  font-size: 40px;
+  margin: 5px;
+  background-color: gray;
+}/*# sourceMappingURL=main.css.map */
